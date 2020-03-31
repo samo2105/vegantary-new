@@ -87,3 +87,4 @@ production:
   database: tried_production
   username: tried
   password: <%= ENV['TRIED_DATABASE_PASSWORD'] %>
+  pool: <%= ENV['RAILS_MAX_THREADS'] || 10 %>
