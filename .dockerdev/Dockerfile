@@ -70,3 +70,6 @@ COPY . /app
 
 # Run Bundler
 RUN bundle install --jobs 20 --retry 5
+
+#Expose 3000 port
+EXPOSE 3000
